@@ -6,10 +6,10 @@ import Tracker from './Tracker'
 function MainContent() {
   
   return (
-    <div className='bg-[#e9e9ff] py-2 '>
+    <div className='bg-[#e9e9ff] py-2  '>
        
         <Header/>
-        <div className='flex justify-between m-2'>
+        <div className='flex justify-between m-2 '>
        
         <p className='text-[#010066] font-bold text-lg'>Track your fleet</p>
         <div className='flex'>
