@@ -66,7 +66,7 @@ function Tracker() {
                             </div>
                             <div className='bg-[#fed383]  rounded-lg flex flex-col items-center'>
                                 <span className="text-lg font-bold">
-                                    03
+                                    02
                                 </span>
                                 <span className="text-xs">
                                     Idling
@@ -77,7 +77,7 @@ function Tracker() {
                             </div>
                             <div className='bg-[#e9c7fb] rounded-lg flex flex-col items-center'>
                                 <span className="text-lg font-bold">
-                                    06
+                                    24
                                 </span>
                                 <span className="text-xs">
                                     Stopped
@@ -88,7 +88,7 @@ function Tracker() {
                             </div>
                             <div className='bg-[#dadada] rounded-lg flex flex-col items-center'>
                                 <span className="text-lg font-bold">
-                                    06
+                                    04
                                 </span>
                                 <span className="text-xs">
                                     Offline
@@ -100,10 +100,10 @@ function Tracker() {
                             </div>
                             <div className='bg-[#f9d9d9] rounded-lg flex flex-col items-center relative'>
                                 <span className="text-lg font-bold">
-                                    06
+                                    00
                                 </span>
                                 <span className="text-xs">
-                                    Un-subscribed
+                                    Un-Subscribed
                                 </span>
                                 <div className="h-2 w-full rounded-b-lg bg-red-700 aboslute bottom-0 top-30">
 
@@ -111,10 +111,10 @@ function Tracker() {
                             </div>
                             <div className='bg-[#e0f2fb] rounded-lg flex flex-col items-center'>
                                 <span className="text-lg font-bold">
-                                    06
+                                    07
                                 </span>
                                 <span className="text-xs">
-                                    Geoofence
+                                    Geofence
                                 </span>
                                 <div className="bg-[#319ed6] rounded-b-lg w-full h-2"></div>
                             </div>
