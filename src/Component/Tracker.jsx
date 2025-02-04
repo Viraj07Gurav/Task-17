@@ -6,7 +6,7 @@ import { faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
 function Tracker() {
     const [activeTab, setActiveTab] = useState(0);
     return (
-        <div className='mt-6 mb-2 rounded-2xl  mx-2 shadow-[1px_2px_4px_rgba(1,0,1,0.4)] bg-white'>
+        <div className='mt-6 mb-2 rounded-2xl  mx-4 shadow-[1px_2px_4px_rgba(1,0,1,0.4)] bg-white'>
             <div className="flex justify-between items-center  p-5  bg-gray-100 rounded-t-2xl">
                     <div className="bg-base-200 border border-gray-300 rounded-btn relative flex w-28 rounded-full ">
                         <div
@@ -52,7 +52,7 @@ function Tracker() {
                     </div>
                 </div>
 
-                <div className='pt-10 p-5'>
+                <div className='pt-10 p-5 '>
                     <p className="mb-2">All Vehicles:<span className="font-bold text-lg">36</span></p>
                     <div >
                         <div className='grid grid-cols-3 gap-4'>

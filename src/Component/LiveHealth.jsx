@@ -2,7 +2,7 @@ import React from 'react'
 
 function LiveHealth() {
     return (
-        <div className=' m-2 mt-4 rounded-lg shadow-[1px_4px_6px_rgba(0.1,1,1,0.4)] p-2 '>
+        <div className=' m-2 mt-4 mx-4 rounded-lg shadow-[1px_4px_6px_rgba(0.1,1,1,0.4)] p-2 '>
             <div className=' '>
             <div className='flex justify-between mb-2'>
                 <div  >

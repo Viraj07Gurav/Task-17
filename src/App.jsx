@@ -41,7 +41,7 @@ function App() {
               </div>
             </button>
         </div>
-        <div className="fixed bottom-0 left-0 right-0 max-w-md w-full mx-auto z-10 bg-white rounded-t-3xl border-t-0 z-20 ">
+        <div className="fixed bottom-0 left-0 right-0 max-w-md w-full mx-auto z-10 bg-white rounded-t-3xl border-t-0 z-20 shadow-[0_-2px_15px_rgba(173,216,230,0.8)] ">
           <BottomNavigation />
         </div>
       </div>
