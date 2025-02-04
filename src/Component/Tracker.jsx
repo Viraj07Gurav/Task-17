@@ -42,7 +42,7 @@ function Tracker() {
                 
                 <div className='relative '>
                     <div className='absolute  right-0 px-5'>
-                        <select name="Search Reg No." id="" className='border border-gray-300 w-30 h-8 rounded-lg text-xs'>
+                        <select name="Search Reg No." id="" className='border border-gray-300 w-30 h-8 rounded-md text-xs'>
                             <option value="" disabled selected className="text-gray-400">
                                 Search Reg No.
                             </option>

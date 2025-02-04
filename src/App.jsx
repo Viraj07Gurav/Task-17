@@ -23,7 +23,7 @@ function App() {
         <button
               type="button"
               className="z-20 text-white flex flex-col justify-around 
-              fixed bottom-20 right-5 rounded-lg"
+              fixed bottom-20 right-5 lg:left-[55%] rounded-lg"
             >
               <div className="p-3 rounded-full border-4 border-white bg-blue-800">
                 <svg

@@ -6,7 +6,7 @@ function LiveHealth() {
             <div className=' '>
             <div className='flex justify-between mb-2'>
                 <div  >
-                    <p className='font-semibold text-xl text-[#09034D]'>Live Fleet Health</p>
+                    <p className='font-bold text-xl text-[#09034D]'>Live Fleet Health</p>
                 </div>
                 <div>
                     <svg className="w-6 h-6 text-blue dark:text-blue bg-gray-200 rounded-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">

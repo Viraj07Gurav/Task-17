@@ -12,9 +12,9 @@ function MainContent() {
         <div className='flex justify-between mx-3 mt-0 '>
        
         <p className='text-[#010066] font-bold text-lg'>Track your fleet</p>
-        <div className='flex'>
-            <p>Branch:</p>
-            <select name="All" value="" id="" className=' text-sm text-blue-500 text-center font-bold'>
+        <div className='inline-flex items-center gap-x-2 '>
+            <p className='text-end whitespace-nowrap'>Branch:</p>
+            <select name="All" value="" id="" className=' text-sm text-blue-500  font-bold w-12'>
               {/* <option value=""> Branch 1</option>
                 <option value=""  className='text-sm font-bold text-blue-600 '>All</option>
                 <option value=""  selected className="text-gray-400">
