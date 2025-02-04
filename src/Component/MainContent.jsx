@@ -6,18 +6,27 @@ import Tracker from './Tracker'
 function MainContent() {
   
   return (
-    <div className='bg-[#e9e9ff] py-2  '>
+    <div className='bg-[#e9e9ff]  pb-2 rounded-b-xl  h-auto'>
        
         <Header/>
-        <div className='flex justify-between m-2 '>
+        <div className='flex justify-between mx-3 mt-0 '>
        
         <p className='text-[#010066] font-bold text-lg'>Track your fleet</p>
         <div className='flex'>
             <p>Branch:</p>
-            <select name="All" value="All" id="">
-                <option value="">Branch 1</option>
-                <option value="">Branch 2</option>
-                <option value="">Branch 3</option>
+            <select name="All" value="" id="" className=' text-sm text-blue-500 text-center font-bold'>
+              {/* <option value=""> Branch 1</option>
+                <option value=""  className='text-sm font-bold text-blue-600 '>All</option>
+                <option value=""  selected className="text-gray-400">
+                               All
+                            </option> */}
+                {/* <option value="" >Branch 2</option>
+                <option value="" >Branch 3</option> */}
+                 <option value="" disabled selected className="text-gray-400">
+                               All
+                            </option>
+                            <option value="">branch 1</option>
+                            <option value="">branch 2</option>
                 </select>
         </div>
         </div>

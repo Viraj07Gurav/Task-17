@@ -4,7 +4,7 @@ import { faTableCells, faCalendarAlt, faChartLine, faLightbulb, faMapMarkerAlt }
 
 function BottomNavigation() {
   return (
-    <div className='bg-white shadow-lg py-3 px-4'>
+    <div className='bg-white shadow-lg  px-4 border-t-2 border-gray-200 rounded-t-3xl'>
       {/* Bottom Navigation */}
       <div className="grid grid-cols-5 gap-2 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5 gap-4">
         {[
